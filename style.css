@@ -48,4 +48,9 @@ body{
     padding: 20px 10px;
 }
 
-.poke p{}
+#perro{
+    display: none;
+    position: absolute;
+    margin-left: 200px;
+    
+}
