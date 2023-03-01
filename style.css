@@ -18,7 +18,8 @@ body{
 .imgpoke{
     width: 100px;
     display: flex;
-    justify-content: center;
+    margin-left: 5px;
+    text-align: center;
 }
 
 .poke{
@@ -28,7 +29,18 @@ body{
     text-align: center;
     border: solid 1px black;
     display: flex;
-    background-color: #dce1f1a9;
-    flex-direction: column;
+    background-color: #dce1f1a9; 
     flex-wrap: wrap;
+}
+
+.Pokemons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
 }
